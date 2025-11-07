@@ -2,6 +2,12 @@
 
 This repository contains code and data necessary for replicating the results from our paper "Physical activity data correlate with fluctuations in estradiol." 
 
+## Code
+* Run main.ipynb to produce the figures presented in our paper
+* model_functions.py contains functions for validating the shank-only XGBoost model for female participants
+* data_functions.py contains functions for formatting the shank-only XGBoost model energy expenditure estimates
+* plotting_functions.py contains functions for creating correlation plots used to compare energy expenditure with hormone reference values
+  
 ## Data
 Data included in this repository are as follows:
 * **energy_estimates.pkl.zip:** Energy expenditure estimates from a data-driven model trained on shank IMU data and ground-truth respirometry
@@ -15,10 +21,4 @@ Data included in this repository are as follows:
     * Stricker, R. et al. Establishment of detailed reference values for luteinizing hormone, follicle stimulating hormone, estradiol, and progesterone during different phases of the menstrual cycle on the Abbott ARCHITECT analyzer. Clin. Chem. Lab. Med. 44, 883–887 (2006).
  * **model_validation**: directory containing each subject's shank IMU (x.csv) and ground-truth respirometry (y.csv)
    * This dataset is from Slade, P. et al. "Sensing leg movement enhances wearable monitoring of energy expenditure." Nature Communications, 12.1 (2021)
-
-## Code
-* Run main.ipynb to produce the figures presented in our paper
-* model_functions.py contains functions for validating the shank-only XGBoost model for female participants
-* data_functions.py contains functions for formatting the shank-only XGBoost model energy expenditure estimates
-* plotting_functions.py contains functions for creating correlation plots used to compare energy expenditure with hormone reference values 
 
