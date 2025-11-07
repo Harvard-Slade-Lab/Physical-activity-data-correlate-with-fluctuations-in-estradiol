@@ -10,9 +10,8 @@ Data included in this repository are as follows:
 * **hormone_reference_values.csv:** Estrogen and Progesterone reference values collected from similar cohorts (citations for reference values are below)
   * Estradiol values:
     * Dighe, A. S. et al. "High-resolution reference ranges for estradiol, luteinizing hormone, and follicle-stimulating hormone in men and women using the AxSYM assay system." Clin. Biochem. 38, 175–179 (2005).
-    * Stricker, R. et al. "Establishment of detailed reference values for luteinizing hormone, follicle stimulating hormone, estradiol, and progesterone during different phases of the menstrual cycle on the Abbott ARCHITECT analyzer." Clin. Chem. Lab. Med. 44, 883–887 (2006).
     * Verdonk, S. J. E. et al. "Estradiol reference intervals in women during the menstrual cycle, postmenopausal women and men using an LC-MS/MS method." Clin. Chim. Acta 495, 198–204 (2019).
-  * Progesterone values:
+  * Estradiol and Progesterone values:
     * Stricker, R. et al. Establishment of detailed reference values for luteinizing hormone, follicle stimulating hormone, estradiol, and progesterone during different phases of the menstrual cycle on the Abbott ARCHITECT analyzer. Clin. Chem. Lab. Med. 44, 883–887 (2006).
  * **model_validation**: directory containing each subject's shank IMU (x.csv) and ground-truth respirometry (y.csv)
    * This dataset is from Slade, P. et al. "Sensing leg movement enhances wearable monitoring of energy expenditure." Nature Communications, 12.1 (2021)
